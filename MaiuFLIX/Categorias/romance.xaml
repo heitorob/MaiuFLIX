@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MaiuFLIX.romance"
+             Title="romance"
+             BackgroundColor="#2f2f30">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="btnfilme" TargetType="ImageButton">
+                <Setter Property="HorizontalOptions" Value="Fill"/>
+                <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+                <Setter Property="CornerRadius" Value="5"/>
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <VerticalStackLayout>
+        <ScrollView>
+            <Grid RowDefinitions="300, 300, 300"
+                  ColumnDefinitions="*, *"
+                  Padding="5"
+                  ColumnSpacing="2"
+                  RowSpacing="2">
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
+                             Style="{StaticResource btnfilme}"
+                             Source="rmnci.jpg" x:Name="btnrmnci" 
+                             Clicked="btnrmnci_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0"
+                             Style="{StaticResource btnfilme}"
+                             Source="rmncii.jpg" x:Name="btnrmncii"
+                             Clicked="btnrmncii_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1"
+                             Style="{StaticResource btnfilme}"
+                             Source="rmnciii.jpg" x:Name="btnrmnciii"
+                             Clicked="btnrmnciii_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="1"
+                             Style="{StaticResource btnfilme}"
+                             Source="rmnciv.jpg" x:Name="btnrmnciv"
+                             Clicked="btnrmnciv_Clicked"/>
+            </Grid>
+        </ScrollView>
+    </VerticalStackLayout>
+</ContentPage>

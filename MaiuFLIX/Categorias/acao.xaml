@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MaiuFLIX.acao"
-             Title="acao"
+             Title="Ação"
              BackgroundColor="#2f2f30">
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -24,19 +24,19 @@
                   RowSpacing="2">
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
                              Style="{StaticResource btnfilme}"
-                             Source="acaoi.jpg" x:Name="btnacaoi" 
+                             Source="placeholderi.jpg" x:Name="btnacaoi" 
                              Clicked="btnacaoi_Clicked"/>
                 <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0"
                              Style="{StaticResource btnfilme}"
-                             Source="acaoii.jpg" x:Name="btnacaoii"
+                             Source="placeholderii.jpg" x:Name="btnacaoii"
                              Clicked="btnacaoii_Clicked"/>
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1"
                              Style="{StaticResource btnfilme}"
-                             Source="acaoiii.jpg" x:Name="btnacaoiii"
+                             Source="placeholderiii.jpg" x:Name="btnacaoiii"
                              Clicked="btnacaoiii_Clicked"/>
                 <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="1"
                              Style="{StaticResource btnfilme}"
-                             Source="acaoiv.jpg" x:Name="btnacaoiv"
+                             Source="placeholderiv.jpg" x:Name="btnacaoiv"
                              Clicked="btnacaoiv_Clicked"/>
             </Grid>
         </ScrollView>

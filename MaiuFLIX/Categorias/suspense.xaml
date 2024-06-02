@@ -24,19 +24,19 @@
                   RowSpacing="2">
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
                              Style="{StaticResource btnfilme}"
-                             Source="suspi.jpg" x:Name="btnsuspi" 
+                             Source="placeholderi.jpg" x:Name="btnsuspi" 
                              Clicked="btnsuspi_Clicked"/>
                 <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0"
                              Style="{StaticResource btnfilme}"
-                             Source="suspii.jpg" x:Name="btnsuspii"
+                             Source="placeholderii.jpg" x:Name="btnsuspii"
                              Clicked="btnsuspii_Clicked"/>
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1"
                              Style="{StaticResource btnfilme}"
-                             Source="suspiii.jpg" x:Name="btnsuspiii"
+                             Source="placeholderiii.jpg" x:Name="btnsuspiii"
                              Clicked="btnsuspiii_Clicked"/>
                 <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="1"
                              Style="{StaticResource btnfilme}"
-                             Source="suspiv.jpg" x:Name="btnsuspiv"
+                             Source="placeholderiv.jpg" x:Name="btnsuspiv"
                              Clicked="btnsuspiv_Clicked"/>
             </Grid>
         </ScrollView>

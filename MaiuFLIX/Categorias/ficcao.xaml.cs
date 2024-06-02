@@ -7,17 +7,17 @@ public partial class ficcao : ContentPage
 		InitializeComponent();
 	}
 
-    private void btngrrai_Clicked(object sender, EventArgs e)
+    private void btnfccoi_Clicked(object sender, EventArgs e)
     {
 
     }
 
-    private void btngrraii_Clicked(object sender, EventArgs e)
+    private void btnfccoii_Clicked(object sender, EventArgs e)
     {
 
     }
 
-    private void btngrraiii_Clicked(object sender, EventArgs e)
+    private void btnfccoiii_Clicked(object sender, EventArgs e)
     {
 
     }
@@ -27,7 +27,7 @@ public partial class ficcao : ContentPage
 
     }
 
-    private void btngrraiv_Clicked(object sender, EventArgs e)
+    private void btnfccoiv_Clicked(object sender, EventArgs e)
     {
 
     }

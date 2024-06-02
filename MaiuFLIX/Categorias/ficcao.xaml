@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MaiuFLIX.ficcao"
-             Title="ficcao"
+             Title="Ficção Científica"
              BackgroundColor="#2f2f30">
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -24,19 +24,19 @@
                   RowSpacing="2">
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
                              Style="{StaticResource btnfilme}"
-                             Source="fccoi.jpg" x:Name="btnfccoi" 
+                             Source="placeholderi.jpg" x:Name="btnfccoi" 
                              Clicked="btnfccoi_Clicked"/>
                 <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0"
                              Style="{StaticResource btnfilme}"
-                             Source="fccoii.jpg" x:Name="btnfccoii"
+                             Source="placeholderii.jpg" x:Name="btnfccoii"
                              Clicked="btnfccoii_Clicked"/>
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1"
                              Style="{StaticResource btnfilme}"
-                             Source="fccoiii.jpg" x:Name="btnfccoiii"
+                             Source="placeholderiii.jpg" x:Name="btnfccoiii"
                              Clicked="btnfccoiii_Clicked"/>
                 <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="1"
                              Style="{StaticResource btnfilme}"
-                             Source="fccoiv.jpg" x:Name="btnfccoiv"
+                             Source="placeholderiv.jpg" x:Name="btnfccoiv"
                              Clicked="btnfccoiv_Clicked"/>
             </Grid>
         </ScrollView>

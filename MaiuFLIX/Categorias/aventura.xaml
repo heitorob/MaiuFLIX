@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MaiuFLIX.aventura"
-             Title="aventura"
+             Title="Aventura"
              BackgroundColor="#2f2f30">
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -24,20 +24,20 @@
                   RowSpacing="2">
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
                              Style="{StaticResource btnfilme}"
-                             Source="avnti.jpg" x:Name="btnavnti" 
+                             Source="placeholderi.jpg" x:Name="btnavnti" 
                              Clicked="btnavnti_Clicked"/>
                 <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0"
                              Style="{StaticResource btnfilme}"
-                             Source="avntii.jpg" x:Name="btnavntii"
+                             Source="placeholderii.jpg" x:Name="btnavntii"
                              Clicked="btnavntii_Clicked"/>
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1"
                              Style="{StaticResource btnfilme}"
-                             Source="avntiii.jpg" x:Name="btnavntiii"
+                             Source="placeholderiii.jpg" x:Name="btnavntiii"
                              Clicked="btnavntiii_Clicked"/>
                 <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="1"
                              Style="{StaticResource btnfilme}"
-                             Source="avntiv.jpg" x:Name="btnavntiv"
-                             Clicked="btnacaoiv_Clicked"/>
+                             Source="placeholderiv.jpg" x:Name="btnavntiv"
+                             Clicked="btnavntiv_Clicked"/>
             </Grid>
         </ScrollView>
     </VerticalStackLayout>

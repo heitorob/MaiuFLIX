@@ -1,4 +1,4 @@
-namespace MaiuFLIX.Filmes.inft;
+namespace MaiuFLIX.Filmes.grra;
 
 public partial class grraiii : ContentPage
 {
